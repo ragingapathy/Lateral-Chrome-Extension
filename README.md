@@ -1,41 +1,48 @@
-# Lateral-Chrome-Extension
-Chrome Extension for Lateral - A Storytracker
+Lateral Chrome Extension
+The official web clipper for Lateral – A Storytracker.
 
-To add a zipped Chrome extension to your browser as an "unpacked" extension, follow these steps:
+Lateral is the modern way to track your stories and episodes. This extension allows you to instantly clip content from your browser and add it directly to your Lateral workspace.
 
-1. Prepare the Extension Folder
-Locate the ZIP file on your computer.
+🚀 Features
+One-Click Clipping: Quickly add any web page, story, or episode to your tracker.
 
-Unzip/Extract the folder. Right-click the file and select "Extract All" (Windows) or double-click it (Mac).
+Deep Integration: Works seamlessly with the Lateral Storytracker app.
 
-Keep the folder accessible. Make sure you know where this extracted folder is located (e.g., your Desktop or Downloads).
+Lightweight: Built with performance in mind using optimized JavaScript, HTML, and CSS.
 
-2. Open Chrome Extension Settings
-Open the Google Chrome browser.
+🛠 Installation
+Since this extension is currently in development, you can install it as an "unpacked" extension in Google Chrome:
 
-Type chrome://extensions/ into the address bar and press Enter.
+1. Download the Extension
+Clone this repository: git clone https://github.com/ragingapathy/Lateral-Chrome-Extension.git
 
-Alternatively, click the three dots (⋮) in the top-right corner, select Extensions, and then click Manage Extensions.
+Or download the ZIP and extract it to a folder on your computer.
 
-3. Enable Developer Mode
-In the top-right corner of the Extensions page, find the toggle labeled Developer mode.
+2. Enable Developer Mode
+Open Chrome and navigate to chrome://extensions/.
 
-Switch the toggle to ON. This will reveal a new menu bar with options like "Load unpacked."
+In the top-right corner, toggle Developer mode to ON.
 
-4. Load the Unpacked Extension
-Click the Load unpacked button in the top-left area.
+3. Load the Extension
+Click the Load unpacked button that appears in the top-left.
 
-A file explorer window will open. Select the folder you extracted in Step 1.
+Select the extension folder from the repository you just downloaded (the folder containing manifest.json).
 
-Note: Ensure you select the inner folder that contains the manifest.json file.
+📖 How to Use
+Navigate to a story or episode you want to track.
 
-Click Select Folder (Windows) or Open (Mac).
+Click the Lateral icon in your Chrome toolbar.
 
-5. Verify and Use
-The extension should now appear in your list of installed extensions.
+Confirm the details and click Add to Lateral.
 
-If there are any errors, Chrome will display a red "Errors" button on the extension card with details.
+The story will now be available in your Storytracker app.
 
-To keep the extension easily accessible, click the Extensions icon (puzzle piece) next to your address bar and click the Pin icon next to your new extension.
+💻 Tech Stack
+JavaScript: Core logic and API integration.
 
-Important: If you move or delete the extracted folder from your computer, the extension will stop working in Chrome.
+HTML/CSS: Extension popup UI and styling.
+
+📄 License
+This project is licensed under the MIT License.
+
+Created by ragingapathy.
